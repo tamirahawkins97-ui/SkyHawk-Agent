@@ -1,4 +1,4 @@
-## SkyHawk - AI surveillance and governance agent
+# SkyHawk - AI surveillance and governance agent
 ### Overview
 
 This project implements a duty-oriented autonomous agent architected to operate strictly within the defined scope of its assigned responsibilities—specifically engineered for the real-time surveillance, governance, and behavioral auditing of AI agent swarms and distributed AI databases. Rather than reacting to isolated commands, the agent aligns its behavior to a top-level compliance and oversight mandate. Within that primary scope, it dynamically decomposes responsibilities into subsidized, task-specific queries—ensuring consistent objective alignment, bounded authority, and deterministic execution across multi-agent networks and high-throughput vector/relational AI stores.
