@@ -1,32 +1,31 @@
-# SkyHawk - AI surveillance and governance agent
+SkyHawk - AI surveillance and governance agent
+Overview
 
-## Overview
+This project implements a duty-oriented autonomous agent architected to operate strictly within the defined scope of its assigned responsibilities—specifically engineered for the real-time surveillance, governance, and behavioral auditing of AI agent swarms and distributed AI databases. Rather than reacting to isolated commands, the agent aligns its behavior to a top-level compliance and oversight mandate. Within that primary scope, it dynamically decomposes responsibilities into subsidized, task-specific queries—ensuring consistent objective alignment, bounded authority, and deterministic execution across multi-agent networks and high-throughput vector/relational AI stores.
 
-This project implements a **duty-oriented autonomous agent** architected to operate strictly within the defined scope of its assigned responsibilities. Rather than reacting to isolated commands, the agent aligns its behavior to a top-level mandate. Within that primary scope, it dynamically decomposes responsibilities into subsidized, task-specific queries—ensuring consistent objective alignment, bounded authority, and deterministic execution.
+Operational Performance
+Mandate-Driven Autonomy: Evaluates all observed swarm telemetry, inter-agent message passing, and database transaction logs against its operational charter, ensuring every surveillance or enforcement action directly serves its core governance responsibilities.
 
-### Operational Performance
-- **Mandate-Driven Autonomy:** Evaluates all user inputs against its operational charter, ensuring every spawned action directly serves its core responsibilities.
+Subsidized Query Generation: Autonomously spins up, executes, and validates discrete task queries subordinate to the broader duty (such as state-drift checks across agent clusters or anomaly scans on embedding stores) without drifting out of scope.
 
-- **Subsidized Query Generation:** Autonomously spins up, executes, and validates discrete task queries subordinate to the broader duty without drifting out of scope.
+Scope & Context Integrity: Maintains a bounded memory space that preserves duty parameters, environmental constraints, and interaction states across sessions to track long-term behavioral evolution in autonomous swarms.
 
-- **Scope & Context Integrity:** Maintains a bounded memory space that preserves duty parameters, environmental constraints, and interaction states across sessions.
+Contextual Tool Routing: Determines tool usage and external integrations (e.g., database read-hooks, cluster logging pipelines, execution sandboxes) strictly according to the permissions and needs of the active duty scope.
 
-- **Contextual Tool Routing:** Determines tool usage and external integrations strictly according to the permissions and needs of the active duty scope.
+Problem-Solving Framework
+The agent approaches problems through a top-down, duty-governed lifecycle tailored for high-complexity AI environments:
 
-### Problem-Solving Framework
-The agent approaches problems through a top-down, duty-governed lifecycle:
+Scope Validation & Intake: Ingests external telemetry feeds, swarm logs, or database query streams, verifying whether the observed state or requested intervention falls within its operational domain.
 
-1. **Scope Validation & Intake:** Ingests external inputs and verifies whether the requested outcome falls within its operational domain.
+Duty Decomposition: Breaks down the high-level governance responsibility into structured sub-tasks (e.g., isolating a misbehaving agent node, querying vector database index consistency), framing each as a specialized, context-aware query.
 
-2. **Duty Decomposition:** Breaks down the high-level responsibility into structured sub-tasks, framing each as a specialized, context-aware query.
+Subsidized Task Execution: Dispatches each query to local tools, APIs, or data parsers, aggregating results under the supervising duty protocol to map multi-agent interactions and data store integrity.
 
-3. **Subsidized Task Execution:** Dispatches each query to local tools, APIs, or data parsers, aggregating results under the supervising duty protocol.
+Outcome Verification: Evaluates synthesized findings against the original duty criteria before returning a final state, audit record, or governance intervention.
 
-4. **Outcome Verification:** Evaluates synthesized findings against the original duty criteria before returning a final state or response.
+Execution Standards
+Bounded Determinism: Rejects actions, unauthorized database mutations, or unverified swarm commands that violate the scope of duty, preventing hallucinated scope creep or uncontrolled remediation loops.
 
-### Execution Standards
-- **Bounded Determinism:** Rejects actions or queries that violate the scope of duty, preventing hallucinated scope creep.
+Hierarchical Traceability: Every subsidized task query leaves an auditable execution footprint linked back to the originating duty, ensuring complete compliance tracking for agent swarm actions and database modifications.
 
-- **Hierarchical Traceability:** Every subsidized task query leaves an auditable execution footprint linked back to the originating duty.
-
-- **Defensive Execution:** Implements strict validation, timeout ceilings, and recovery protocols so individual task failures never compromise the agent's overall operational integrity.
+Defensive Execution: Implements strict validation, timeout ceilings, and recovery protocols so individual task failures—such as a dropped connection to an unresponsive agent node or a locked database partition—never compromise the agent's overall operational integrity.
